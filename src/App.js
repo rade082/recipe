@@ -12,7 +12,7 @@ const API_KEY = "f014f17c8a3dff91bbd1f7e2dd125503";
 
 const [recipies, setRecipies] = useState([]);
 const [search, setSearch]=useState("")
-const [query,setQuery] = useState('cheese')
+const [query,setQuery] = useState('pea')
 
 useEffect(() => {
   getNutrients();
